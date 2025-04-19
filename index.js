@@ -3,7 +3,7 @@ const express = require('express');
 const { exec } = require('child_process');
 
 const app = express();
-const PORT = 3000;
+const port = process.env.PORT || 3000;
 
 app.use(express.json());
 
@@ -25,6 +25,6 @@ app.post('/open-cmd', (req, res) => {
     });
   });
 
-app.listen(PORT, () => {
+app.listen(port, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
