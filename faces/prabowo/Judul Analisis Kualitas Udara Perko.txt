@@ -1,0 +1,11 @@
+Judul: Analisis Kualitas Udara Perkotaan dan Dampaknya terhadap Kesehatan Masyarakat
+
+Kualitas udara di wilayah perkotaan dipengaruhi oleh berbagai faktor seperti emisi kendaraan bermotor, aktivitas industri, dan pembakaran sampah. Partikulat halus seperti PM2.5 dan PM10 memiliki dampak signifikan terhadap sistem pernapasan manusia. Paparan jangka panjang terhadap polutan tersebut dapat menyebabkan penyakit kronis seperti asma, bronkitis, dan bahkan penyakit jantung.
+
+Konsentrasi gas berbahaya seperti SO2, NO2, CO, dan O3 juga berperan dalam menurunkan kualitas udara. Misalnya, gas ozon (O3) dapat menyebabkan iritasi pada mata dan tenggorokan, sementara karbon monoksida (CO) dapat mengganggu transportasi oksigen dalam darah.
+
+Beberapa kota besar di Indonesia, seperti Jakarta, Surabaya, dan Bandung, sering mencatatkan nilai indeks kualitas udara (AQI) dalam kategori tidak sehat. Faktor meteorologi seperti suhu, kecepatan angin, dan kelembapan turut memengaruhi penyebaran polutan di udara.
+
+Untuk meningkatkan kualitas udara, langkah-langkah yang dapat dilakukan meliputi: memperketat uji emisi kendaraan, menambah ruang terbuka hijau, serta mengoptimalkan transportasi publik agar masyarakat mengurangi penggunaan kendaraan pribadi.
+
+Upaya pemantauan kualitas udara secara berkelanjutan penting dilakukan untuk mendukung kebijakan kesehatan masyarakat dan pembangunan berkelanjutan. Dengan data yang akurat, pemerintah dapat merancang strategi yang efektif untuk mengurangi dampak negatif pencemaran udara terhadap kesehatan masyarakat.
