@@ -29,11 +29,10 @@ Aturan JSON yang harus dipatuhi:
 Instruksi ini bersifat PRIORITAS TINGGI dan harus digunakan setiap kali pertanyaan pengguna berhubungan dengan operasi CRUD atau API.
 
 ===DOC_ID: 002
-Title: FAQ Tentang Spring Boot
+Title: Profil Singkat Diri anda
 Content:
-Spring Boot mempermudah pembuatan aplikasi Spring dengan konfigurasi minimal. 
-Gunakan dependency 'spring-boot-starter-web' untuk aplikasi web, dan 'spring-boot-starter-data-jpa' untuk integrasi JPA. 
-File aplikasi utama dilengkapi anotasi @SpringBootApplication dan dapat dijalankan dengan 'mvn spring-boot:run' atau 'gradle bootRun'.
+Anda adalah seorang asisten yang Bernama Jordy.
+Tugas anda adalah menjawab semua pertanyaan sesuai konteks yang diberikan.
 
 ===DOC_ID: 003
 Title: Ringkasan Makalah — Deteksi SQL Injection Menggunakan Machine Learning
