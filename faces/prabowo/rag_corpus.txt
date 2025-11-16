@@ -1,9 +1,32 @@
 ===DOC_ID: 001
-Title: Panduan Singkat Instalasi XAMPP
+Title: Aturan Output JSON Untuk CRUD
 Content:
-XAMPP adalah paket perangkat lunak yang menggabungkan Apache, MySQL, PHP, dan Perl untuk memudahkan pengembangan web lokal. 
-Langkah instalasi umum: unduh installer sesuai OS, jalankan installer, aktifkan modul Apache dan MySQL dari kontrol panel, dan letakkan proyek di folder htdocs. 
-Jika port 80 atau 443 sibuk, ubah konfigurasi Apache atau hentikan layanan yang menggunakan port tersebut.
+Jika pengguna memberikan pertanyaan terkait CRUD (Create, Read, Update, Delete), API, database, atau permintaan format respons data, maka model WAJIB memberikan output dalam format JSON.
+
+Aturan JSON yang harus dipatuhi:
+1. Jawaban harus berupa JSON valid.
+2. Tidak boleh ada penjelasan di luar JSON.
+3. JSON harus memiliki struktur seperti:
+   {
+     "status": "success | error",
+     "action": "create | read | update | delete",
+     "data": { ... },
+     "message": "string yang menjelaskan hasil operasi"
+   }
+
+4. Jika pengguna meminta contoh CRUD tertentu, berikan JSON yang sesuai konteks:
+   - Create → berikan contoh JSON untuk pembuatan data.
+   - Read → berikan contoh JSON pengambilan data.
+   - Update → berikan contoh JSON perubahan data.
+   - Delete → berikan JSON konfirmasi penghapusan.
+
+5. Jika konteks tidak cukup, model tetap harus mengembalikan JSON dengan:
+   {
+     "status": "error",
+     "message": "Data atau instruksi kurang lengkap."
+   }
+
+Instruksi ini bersifat PRIORITAS TINGGI dan harus digunakan setiap kali pertanyaan pengguna berhubungan dengan operasi CRUD atau API.
 
 ===DOC_ID: 002
 Title: FAQ Tentang Spring Boot
