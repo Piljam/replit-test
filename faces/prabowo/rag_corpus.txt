@@ -1,0 +1,83 @@
+===DOC_ID: 001
+Title: Panduan Singkat Instalasi XAMPP
+Content:
+XAMPP adalah paket perangkat lunak yang menggabungkan Apache, MySQL, PHP, dan Perl untuk memudahkan pengembangan web lokal. 
+Langkah instalasi umum: unduh installer sesuai OS, jalankan installer, aktifkan modul Apache dan MySQL dari kontrol panel, dan letakkan proyek di folder htdocs. 
+Jika port 80 atau 443 sibuk, ubah konfigurasi Apache atau hentikan layanan yang menggunakan port tersebut.
+
+===DOC_ID: 002
+Title: FAQ Tentang Spring Boot
+Content:
+Spring Boot mempermudah pembuatan aplikasi Spring dengan konfigurasi minimal. 
+Gunakan dependency 'spring-boot-starter-web' untuk aplikasi web, dan 'spring-boot-starter-data-jpa' untuk integrasi JPA. 
+File aplikasi utama dilengkapi anotasi @SpringBootApplication dan dapat dijalankan dengan 'mvn spring-boot:run' atau 'gradle bootRun'.
+
+===DOC_ID: 003
+Title: Ringkasan Makalah — Deteksi SQL Injection Menggunakan Machine Learning
+Content:
+Makalah ini membahas metode deteksi serangan SQL Injection dengan model machine learning yang dilatih pada fitur query SQL seperti panjang query, presence of tautology, dan pola escape characters. 
+Dataset yang digunakan terdiri dari query normal dan malicious; model dievaluasi menggunakan metrik precision, recall, dan F1-score. 
+Kelemahan utama termasuk false positives pada query kompleks dan kebutuhan data berlabel besar.
+
+===DOC_ID: 004
+Title: Prosedur Keamanan Dasar untuk Server
+Content:
+Selalu perbarui sistem operasi dan paket perangkat lunak secara berkala. 
+Gunakan firewall untuk membatasi akses port yang tidak perlu, dan aktifkan SSH key-based authentication untuk akses jarak jauh. 
+Backup rutin dan monitoring log membantu mendeteksi aktivitas mencurigakan lebih awal.
+
+===DOC_ID: 005
+Title: Tutorial Singkat React — Membuat Komponen Fungsi
+Content:
+Di React, komponen fungsi dibuat sebagai fungsi JavaScript yang mengembalikan JSX. 
+Gunakan useState untuk menyimpan state lokal, dan useEffect untuk efek samping seperti fetching data. 
+Pisahkan komponen menjadi bagian kecil agar mudah diuji dan dipelihara.
+
+===DOC_ID: 006
+Title: Deskripsi Produk — Zuppa Soup Jamur
+Content:
+Zuppa Soup Jamur adalah sup krim berbahan dasar jamur segar, dibuat dengan bahan alami tanpa pengawet. 
+Cocok disajikan hangat sebagai menu pembuka; varian tersedia dengan roti panggang atau crouton. 
+Simpan di kulkas maksimal 3 hari dan panaskan hingga mendidih sebelum disajikan.
+
+===DOC_ID: 007
+Title: Cara Menggunakan Multer di Node.js
+Content:
+Multer adalah middleware untuk menangani multipart/form-data, terutama untuk upload file. 
+Konfigurasi dasar meliputi pembuatan storage (diskStorage) dan field upload; tentukan folder tujuan seperti './uploads'. 
+Periksa ukuran file dan tipe MIME untuk validasi sebelum menyimpan.
+
+===DOC_ID: 008
+Title: Catatan Tentang MongoDB — Koneksi dan Indexing
+Content:
+Gunakan koneksi string yang aman dan variabel lingkungan untuk menyimpan kredensial. 
+Indeks membantu mempercepat query baca; buat indeks pada field yang sering digunakan dalam pencarian atau pengurutan. 
+Perhatikan ukuran dokumen dan pertimbangkan skema yang mengurangi duplikasi jika diperlukan.
+
+===DOC_ID: 009
+Title: Ide Skripsi: Perbandingan RAG vs Non-RAG untuk Chatbot
+Content:
+Bandingkan performa chatbot berbasis LLM dengan dan tanpa Retrieval-Augmented Generation (RAG) pada metrik relevansi jawaban dan hallucination. 
+Dataset eksperimen dapat terdiri dari pertanyaan domain spesifik dan sumber dokumen yang menjadi basis retrieval. 
+Ukur kelayakan implementasi, latensi, dan kebutuhan storage untuk indeks retrieval.
+
+===DOC_ID: 010
+Title: Troubleshooting Jaringan — DNS Tidak Resolving
+Content:
+Periksa konfigurasi /etc/resolv.conf atau pengaturan DNS di router; coba resolusi menggunakan 'nslookup' atau 'dig'. 
+Jika DNS publik seperti 1.1.1.1 atau 8.8.8.8 berhasil, masalah mungkin di provider atau cache DNS lokal. 
+Flush cache DNS dan restart layanan jaringan sebagai langkah awal.
+
+===DOC_ID: 011
+Title: Panduan Singkat Git — Branching dan Merge
+Content:
+Gunakan 'git checkout -b <branch>' untuk membuat branch fitur. 
+Lakukan commit kecil dan sering; sebelum merge, lakukan rebase atau merge dari main untuk menyelesaikan konflik lebih awal. 
+Gunakan pull request dan review kode untuk menjaga kualitas.
+
+===DOC_ID: 012
+Title: Contoh Data untuk RAG — Format dan Pembatas
+Content:
+Setiap dokumen di bagian ini dipisahkan dengan delimiter '===DOC_ID: NNN' dan memiliki header Title dan Content. 
+Untuk indexing, Anda bisa mengekstrak ID, Title, dan Content; simpan metadata tambahan seperti source_url atau timestamp jika tersedia. 
+Format ini mudah diubah ke JSONL atau CSV sesuai kebutuhan sistem retrieval Anda.
